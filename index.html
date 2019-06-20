@@ -1,0 +1,37 @@
+
+<html>
+
+<head>
+    <script>
+    function JavaScriptCode(){
+
+        var text = document.getElementById("MyText").value;
+        var textRight ;
+for(var i = 0; i < text.length; i++){
+    textRight = text[i];
+  /*  if(text == text.toUpperCase()){
+
+console.log("Good Boy")
+}else
+console.log("Ur word must be all in UpperCase")
+}*/
+}
+if (textRight == null){
+console.log("Write something");
+} else if(textRight == textRight.toUpperCase()){
+
+console.log("Good Boy");
+}else 
+console.log ("Use the f**ng UpperCase dude!");
+    }
+    </script>
+</head>
+<body>
+<h1>Welcome to my newbie code!</h1>
+<h2><strong>Say something! even if it has no sense</strong></h2>
+ <input type= "text" id ="MyText" 
+                placeholder = "Hurry up!" />
+
+<input type ="button" onclick="JavaScriptCode()" value ="Click Me, but" />
+</body>
+</html>
